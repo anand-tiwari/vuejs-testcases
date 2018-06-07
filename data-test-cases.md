@@ -1,4 +1,4 @@
-# Hello.vue
+`# Hello.vue
 <template>
   <div class="container">
     <div class="container__counter">{{counter}}</div>
@@ -53,4 +53,4 @@ describe('Hello.vue', () => {
     vm.incrementCounter()
     expect(vm.$data.counter).to.equal(1)
   })
-})
+})`
